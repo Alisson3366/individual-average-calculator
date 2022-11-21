@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    background-color:  #384252;
+}
+header {
+    padding: 24px;
+    background-color: #e25858;
+    border-bottom: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 32px;
+}
+div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+h1 {
+    font-family: 'Hepta Slab', serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    border-bottom: 2px solid #384252;
+}
+h2 {
+    font-family: 'Hepta Slab', serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    padding: 12px;
+}
+.informacoes {
+    background-color: #384252;
+    font-family: 'Hepta Slab', serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    padding: 24px;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+.inputs, .resultado {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9d6af;
+    font-family: 'Hepta Slab', serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+    padding: 12px 24px;
+    gap: 12px;
+    border-bottom: 2px solid black;
+}
+fieldset {
+    padding: 6px;
+    border: none;
+    border-left: 2px solid #e25858;
+    border-bottom: 2px solid #e25858;
+}
+input {
+    font-family: 'Hepta Slab', serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+    width: 100%;
+    padding: 6px;
+    box-shadow: 3px 3px black;
+    border: 2px solid #384252;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+button {
+    background-color: #e9d6af;
+    font-family: 'Hepta Slab', serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: black;
+    width: 200px;
+    padding: 6px;
+    border: 2px solid #384252;
+    box-shadow: 3px 3px  black;
+}
+button:hover, button:active {
+    background-color: #384252;
+    color: white;
+}
+table {
+    padding: 6px;
+}
+th {
+    padding: 12px 0px;
+    text-align: center;
+    background-color: #e25858;
+    border-bottom: 2px solid #384252;
+}
+td {
+    padding: 6px 0px;
+    width: 200px;
+    text-align: left;
+}
+.colunasP {
+    width: 100px;
+    text-align: center;
+    border-bottom: 2px solid #384252;
+}
+.colunasG {
+    width: fit-content;
+    padding: 0px 36px 0px 0px;
+    text-align: left;
+    border-bottom: 2px solid #384252;
+}
+.colunasM {
+    width: fit-content;
+    padding: 0px 24px 0px 24px;
+    text-align: center;
+    border-bottom: 2px solid #384252;
+}
