@@ -1,3 +1,3 @@
-# Comunidade Strokes
+# Calculadora de Média Segundo Creitério de Avaliação do IESB
 
-The Strokes fan page.
+Algoritmo que permite inserir alunos e suas notas, da primeira e segunda parte do semestre, e calcular automaticamente a média individual de cada um deles.
